@@ -28,13 +28,13 @@ common_text = "\nBased on your BMI, you fall into the category of"
 
 if bmi < 18.5:
     print(common_text, "Underweight")
-elif bmi >= 18.5 and bmi < 25:
+elif 18.5 <= bmi < 25:
     print(common_text, "Normal weight")
-elif bmi >= 25 and bmi < 30:
+elif 25 <= bmi < 30:
     print(common_text, "Overweight")
-elif bmi >= 30 and bmi < 35:
+elif 30 <= bmi < 35:
     print(common_text, "Obesity Class I")
-elif bmi >= 35 and bmi < 40:
+elif 35 <= bmi < 40:
     print(common_text, "Obesity Class II")
 else:
     print(common_text, "Obesity Class III")
